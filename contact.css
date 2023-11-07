@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    color: #c8a2c8;
+  
+}
+h1{
+    font-weight: bold;
+    margin-left: 1%;
+}
+form{
+    justify-content: flex-start;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(min-width:576px){
+   p {
+    text-align: center;
+   }
+   b{
+    text-align: center;
+   }
+   a{
+    text-align: center;
+   }
+   h6{
+    text-align: center;
+    font-size: large;
+   }
+   form{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   b{
+    font-size: large;
+   }
+   input , textarea{
+    background-color: plum;
+   }
+   .btn-group-vertical{
+    background-color: #c8a2c8;
+    color: black;
+   }
+   a{
+    color: blueviolet;
+   }
+}
+@media(min-width:992px){
+     .container{
+        border: none;
+     }
+     b{
+        font-size: x-large;
+       }
+}
+@media(max-width:576px){
+    p {
+        text-align: center;
+       }
+       b{
+        text-align: center;
+       }
+       a{
+        text-align: center;
+       }
+       h6{
+        text-align: center;
+        font-size: large;
+       }
+       form{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+       button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       b{
+        font-size: larger;
+       }
+       input , textarea{
+        background-color: plum;
+       }
+       .btn-group-vertical{
+        background-color: #c8a2c8;
+        color: black;
+       }
+       a{
+        color: blueviolet;
+       }
+}
+@media(min-width:1200px){
+    b{
+        font-size: x-large;
+       }
+       p , a{
+        font-size: large;
+       }
+}

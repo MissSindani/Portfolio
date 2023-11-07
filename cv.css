@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    color: #c8a2c8;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #c8a2c4;
+}
+h4{
+   text-decoration: #c8a2c8;
+   font-size: 100%;
+}
+h4 img{
+    width: 8%;
+    height: 8%;
+}
+hr{
+    color: purple;
+}
+.form{
+    border: 2px solid purple;
+    border-radius: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   box-sizing: border-box;
+   margin: 8%;
+   padding: 10%;
+   box-shadow: 0px 0px 10px purple;
+}
+button{
+    background-color: black;
+    color: #c8a2c8;
+    border: 1px solid #c8a2c8;
+    box-shadow: 0px 0px 18px purple;
+}
+button hover{
+    color: aquamarine;
+}

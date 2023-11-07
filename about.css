@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: #c8a2c8;
+    margin-right: 1%;
+}
+h1{
+        font-weight: bold;
+        color: #c8a2c8;
+        margin-left: 0%;
+        padding-right: 0%;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #c8a2c4;
+}
+img{
+    width: 190px;
+    height: 190px;
+}
+.container{
+    margin: 1%;
+}
+footer{
+    text-align: center;
+    margin: 11.5px;
+}
+@media(max-width:576px){
+    h1{
+      font-size: 24px;
+    }
+}
+@media(min-width:576px){
+    h2{
+        font-size: 265%;
+    }
+    p{
+        font-size: 90%;
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+}

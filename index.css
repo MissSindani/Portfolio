@@ -1,0 +1,123 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: bold;
+    color: #c8a2c8;
+    margin-left: 1%;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #c8a2c4;
+}
+.img-fluid{
+    height: 200px;
+    width: 300px;
+}
+.bg-dark {
+    background-color: black;
+}
+h2{
+    color: #c8a2c8;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px rgba(110, 40, 110, 0.4);
+    line-height: 1.2;
+    margin: 5px;
+    font-size: 18px;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row-container{
+    padding: 2px 1px;
+    overflow: hidden;
+}
+p{
+    color: #c8a2c8;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px 10px;
+    font-size: larger;
+   
+}
+button{
+    box-shadow: 0px 0px 18px purple;
+}
+p a{
+    color: blueviolet;
+}
+.button:hover{
+
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+@media(max-width:930px){
+    .col{
+        flex: none;
+        width: 100%;
+       flex-direction: row;
+       align-items: center;
+       justify-content: center;
+       padding: 5px;
+       border-radius: 0;
+    }
+    hr{
+        height: 1px;
+        background-color: purple;
+        border: none;
+        box-shadow: 0 2px 4px rgba(110, 40, 110, 0.4);
+        width: 70px;
+    }
+    h2{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media(max-width:576px){
+    h1{
+      font-size: 24px;
+    }
+    h2{
+        font-size: 21px;
+    }
+}
+@media(min-width:931px){
+    .col{
+        padding: 2%;
+    }
+    .image-container{
+        align-items:  unset;
+    }
+    h1{
+        font-size: 2.9em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    .lead{
+        font-size: 2.3em;
+    }
+    a{
+        font-size: 1.5em;
+    }
+}
+@media(min-width:1310px){
+    .img-fluid{
+        height: 270px;
+        width: 360px;
+    }
+}

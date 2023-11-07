@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: #c8a2c8;
+}
+h1{
+    font-weight: bold;
+    margin-left: 1%;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #c8a2c4;
+}
+.card{
+    width: 40%;
+    padding: 0%;
+    margin: 5%;
+   border: 1px solid purple;
+}
+.card-body{
+    color: #c8a2c8;
+    background-color: black;
+}
+h5{
+    text-align: center;
+}
+footer{
+    text-align: right;
+}
+section{
+    display: flex;
+    justify-content: right;
+    color: blanchedalmond;
+    margin-bottom: 1%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    color: black;
+}
+@media (max-width: 996px) {
+    .card{
+        width: 100%
+    };
+}

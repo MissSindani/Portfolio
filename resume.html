@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link href="resume.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-xlg">
+            <h1 class="main">Resume</h1>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Togg">
+             <span class="navbar-toggler-icon"></span></button>
+             <div class="collapse navbar-collapse" id="Togg">
+                 <div class="navbar-nav">
+                     <a href="index.html" class="nav-item nav-link">Home</a>
+                     <a href="cv.html" class="nav-item nav-link active">Resume</a>
+                     <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                     <a href="services.html" class="nav-item nav-link">Services</a>
+                     <a href="" class="nav-item nav-link">Gallery</a>
+                     <a href="about.html" class="nav-item nav-link">About Me</a>
+                     <a href="contact" class="nav-item nav-link">Contact Me</a>
+                 </div>
+             </div>
+         </nav>
+         <section>
+       <h1 class="display-4">Lebogang Francis Sindani</h1>
+       <h3 id="h3">Data Scientist</h3><h3>Web Developer</h3>
+         </section>
+         <section class="section">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <h6>About Me</h6>
+                       <p>Passionate junior data scientist and web developer freelancer with a strong enthusiasm 
+                        for crafting data-driven solutions and creating efficient software applications. 
+                        Eager to apply my analytical skills and programming knowledge to tackle real-world challenges. 
+                        Committed to continuous learning in programming field.</p> <br>
+                    <h6>Contact Me</h6>
+                    <b> Email Address :</b><a href=" lebogangfrancis@030802@gmail.com">@Gmail</a><br>
+                    <b>Phone Number :</b> +27 79 442 3724 <br>
+                     <b>Portfolio :</b> <a href="portfolio.html">Explore Here</a> <br>
+                     <b>Address :</b>Pretoria , Gauteng , 0001 <br>
+                    <br> <h6>Skills</h6>
+                        <ol>
+                            <li>Data Science</li>
+                        <ul>
+                        <li>Python</li>
+                        <li>Data Cleaning</li>
+                        <li>Data Analysis</li>
+                        <li>Data Preprocessing</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                 </ol>
+                 <ol>
+                    <li>Web Development</li>
+                <ul>
+                <li>Javascript</li>
+                <li>HTML/Css</li>
+                <li>Node</li>
+                <li>Responsive Design</li>
+                <li>MySQL</li>
+            </ul>
+         </ol> <br>
+            </div>
+                <div class="col-lg-5 col-md-12">
+                    <h5>Education</h5>
+                    <b>Nchaupe High School</b>
+                 <p id="edu">Matriculated <br> 2022</p>
+                    <b>Sololearn</b>
+                 <p id="edu">Python & SQL <br> May 2023</p>
+                    <b>Udemy</b>
+                 <p id="edu">Data Science Bootcamp <br> May 2023</p>
+               
+                <p id="edu">Web Development Bootcamp <br> Aug 2023 </p>
+                <h5>Projects Completed</h5>
+                <p> <b id="pr">Credit Segmentation &verbar; Prediction Model </b> <br>
+                    <p id="edu">Apr 2023 <br>
+                    Solely </p>
+                    I used Python libraries Pandas to read my csv file I have downloaded from kaggle and to clean if I have null values . 
+                    I then used KMeans algorithm to group customers who may require credit and categorize them based on their credit needs.
+                    Model performance is evaluated after train_test_split method to divide my dataset .
+                     I later used accuracy_score metrics to check my training and testing accuracy where i got 100% on
+                      training and 96% on testing . I visualized using confusion matrix. The model can be used in 
+                      real-time credit predictions and to be able to do decision-making if the customer is worthy of the 
+                      credit or not . With that we have less than 5% of making mistakes. </p>
+                      <p> <b>Car Price Prediction Classification </b>
+                        <p id="edu"> May 2023 <br>
+                        Solely</p>
+                        The process began by obtaining a dataset from Kaggle and utilizing Python, along with the Pandas
+                         library, to clean the data by removing unnecessary columns. Numerical values were mapped to 1
+                          if above the median and 0 otherwise, while research on Google helped identify factors
+                           influencing car pricing for handling categorical variables. 
+                        The main goal was to predict car prices, which were mapped based on their median. This enables 
+                        informing customers if their desired car's price is above or below the median, accounting for 
+                        variations in car prices over time and across locations. 
+                        The dataset was then split using the train_test_split function, with 20% allocated for testing. 
+                        The model's accuracy was evaluated, resulting in a 87.88 score. 
+                        To gain insights and aid in decision-making, the data and model results were visualized using
+                         Classification view with Matplotlib and Seaborn. The model was deployed on GitHub, making it
+                          ready for car price predictions and assisting potential car buyers. </p>
+                        </p>
+                       <p>
+                        <b>Salary Prediction</b> 
+                       <p id="edu">June 2023 <br>
+                    Solely</p> 
+In this project, I, as a Data Scientist, built a Salary Prediction Model using Linear Regression.
+ I used a dataset from Kaggle and prepared it for analysis by organizing the data. The dataset was split 
+ into training and testing sets to ensure the model's accuracy on new data. I employed scikit-learn's
+  LinearRegression to train the model and understand the relationships between factors and salaries. 
+The model's performance was evaluated using the R-squared (R2) score, indicating a high accuracy of 97%
+ on the training data and 89% on the testing data. To visually represent the model's accuracy, I created
+  a scatter plot comparing actual salaries with predicted values, adding a line to illustrate the
+   alignment between predictions and real salaries. 
+In conclusion, my Salary Prediction Model using Linear Regression demonstrated its reliability and 
+precision in estimating salaries. The thorough data preprocessing, evaluation, and visualizations made 
+it a valuable tool for real-world salary estimations. 
+                       </p>
+                       <p>
+                       <b>Movie Analysis</b>
+                 <p id="edu">July 2023 <br>
+                Solely</p>
+In this project, I analyzed a movie dataset using Python's data manipulation and visualization tools.
+ I aimed to uncover trends in movie preferences over time. I used libraries like pandas to clean and
+  preprocess the data and matplotlib and Seaborn to create visualizations. I examined average movie 
+  ratings, streaming platform popularity, and the relationship between movie age and viewer interest.
+   The analysis revealed how platforms in movie distribution. Understanding these insights allows me to 
+   make informed recommendations and predictions for the movie industry's future. This project has been a 
+   rewarding journey into data analysis and visualization with Python</p>
+
+                </div> 
+            </div>
+            </div>
+        </div>
+         </section>
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
